@@ -1,43 +1,53 @@
 body{
-    background-color: rgb(6, 6, 6);
+    background-color: rgb(255, 251, 251);
     margin: 10px;
     padding: 10px;
 }
 .profile{
-    border: 1px solid rgb(11, 11, 11);
+    display: grid;
     margin: auto;
-    margin-top: 5px;
-    border-radius: 10px;
-    max-width: 251px;
-    background-color: rgb(26, 24, 24);
-}
-.profile #picture img{
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+    max-width: 253px;
+    background-color: rgb(26, 24, 24);
 }
-#name{
+.profile img{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    max-width: 253px;
+}
+.profile p{
+    margin: 2px;
+}
+.profile #name{
     color: rgb(241, 246, 246);
     font-size: 28px;
     font-weight: 200;
     display: flex;
     justify-content: center;
 }
-#title{
+.profile #title{
    color: rgb(240, 166, 76);
    font-weight: 100;
    font-size: 20px;
    display: flex;
    justify-content: center;
 }
-#site{
+.profile #site{
     color: rgb(241, 246, 246);
     font-size: 18px;
     display: flex;
     justify-content: center;
+    margin-bottom: 15px;
 }
 .buttons{
-    display: flex;
+    display:flex; 
     justify-content: center;
+    max-width: 253px;
+    margin-bottom: 5px;
+    padding-bottom: 20px;
+    margin-top: none;
+    margin: auto;
     background-color: rgb(26, 24, 24);
 }
 button{
@@ -54,43 +64,41 @@ button{
     color: white;
     border: none;
 }
-.About{
-    background-color: rgb(26, 24, 24);
-}
-.About h2{
-    padding-left: 5px;
-    font-size: 23px;
-    color: white;
-}
-.About p{
-    display: flex;
-    justify-content: center;
-    padding: 5px;
+.content{
+    display: grid;
+    max-width: 253px;
+    margin-bottom: 5px;
+    padding-bottom: 15px;
+    margin-top: none;
     margin: auto;
-    font-size: 18px;
-    color: rgb(169, 175, 175);
-}
-.Interests{
     background-color: rgb(26, 24, 24);
 }
-.Interests h2{
-    padding-left: 5px;
-    font-size: 23px;
+.content h2{
     color: white;
+    margin-left: 5px;
+    padding: 8px;
+    padding-bottom: 0;
+    padding-top: 15px;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 23px;
 }
-.Interests p{
-    padding: 5px;
-    margin-bottom: 15px;
+.content p{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 0;
+    margin-left: 4px;
+    padding: 8px;
     font-size: 18px;
-    color: rgb(169, 175, 175)  
-    
+    color: rgb(169, 175, 175); 
 }
 .Socialmedia{
     display: flex;
     justify-content: space-around;
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
-    padding: 5px;
+    padding: 15px;
     background-color: black;
+    max-width: 223px;
+    margin: auto;
 }
-

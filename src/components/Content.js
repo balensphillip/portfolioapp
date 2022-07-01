@@ -11,7 +11,7 @@ export default function Content() {
         </p>
         <h2>Interests</h2>
         <p>
-          I am interested in computing due to my for passion for tech. I do jogging
+          I am interested in computing due to my passion for tech. I do jogging
           and swimming during my free time as well.
         </p>
     </div>
